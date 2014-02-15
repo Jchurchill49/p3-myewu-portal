@@ -47,20 +47,21 @@ height:100px;
 
 h2{
 	font-family:'Quattrocento Sans', Arial, sans-serif; 
-	color: rgba(166, 161, 151, 1)
+	color: rgba(89, 76, 60, 1);
 }
 
 .label{
 	margin: 10px;
 	background-color: white;
-	color:rgba(89, 79, 50, 1);
+	color:rgba(166, 161, 151, 1);
 }
 
 footer li{
-	font-size: .75em;
+	
 	list-style: none;
 	float:left;
 	margin: 2%;
+	color:rgba(225, 222, 211, 1)
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button){
@@ -88,7 +89,9 @@ position:relative;
 left: 30px;
 }
 
-footer a{
+footer p,
+ footer a{
+ 	font-size: .75em;
 	color:rgba(225, 222, 211, 1);
 }
 
