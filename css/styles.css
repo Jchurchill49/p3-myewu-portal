@@ -1,0 +1,83 @@
+
+.top-bar,
+footer,
+.top-bar-section li:not(.has-form) a:not(.button)
+ {
+
+	background-color:rgba(89, 79, 50, 1);
+}
+
+
+
+.top-bar-section li:not(.has-form) a:not(.button):hover
+ {
+
+	background-color:rgba(225, 222, 211, 1);
+}
+
+
+.th {
+width:100px;
+height:100px;
+margin: 2%;
+border-radius: 20%;
+}
+
+.link1{
+text-align: center;
+font-size: .75em;
+}
+
+.search{
+
+	margin-top: 10px;
+}
+
+.filler {
+color:white;
+height:100px;
+}
+
+.dot{
+	color:white;
+}
+
+
+h2{
+	font-family: futura medium;
+}
+
+.label{
+	margin: 10px;
+	background-color: white;
+	color:rgba(89, 79, 50, 1);
+}
+
+footer li{
+	font-size: .75em;
+	list-style: none;
+	float:left;
+	margin: 2%;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background-color:rgba(166, 161, 151, 1);
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background-color:rgba(225, 222, 211, 1);
+}
+
+
+
+.contact li img{
+	width: 30px;
+	height: 30px;
+	margin:10px;
+
+}
+
+
+
+
+
+
